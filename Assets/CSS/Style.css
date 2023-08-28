@@ -1,0 +1,92 @@
+.navbar-nav :hover{
+    color: rgba(255, 255, 0, 0.902);
+}
+.dropdown-menu{
+    background-color: rgb(41, 41, 99);
+}
+.dropdown-menu a{
+    color:white;
+}
+.first-navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 41, 99);
+}
+.first-navbar ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+.first-navbar ul li{
+    padding: 10px;
+}
+.first-navbar ul.social-bar{
+    display: flex;
+    list-style-type: none;
+}
+.first-navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+.first-navbar ul li a:hover{
+    color:yellow;
+}
+.second-navbar img{
+    margin-right: 40px;
+}
+.Main-image-2 img{
+    width: 100%;
+}
+.text-1 h2{
+    margin-top: 20px;
+    padding: 12px 110px;
+}
+.Main-image{
+    position: relative;
+}
+.Main-image .ALL-TEXT{
+    position: absolute;
+    transform: translateY(50%);
+    left: 120px;
+    color: white;
+    margin: 35px 0px;
+}
+.Main-image .ALL-TEXT a{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    background-color:yellow;
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.Main-image .ALL-TEXT a:hover{
+    color:lightyellow;
+}
+.Main-image-2{
+    position: relative;
+}
+.Main-image-2 .ALL-TEXT-2{
+    position: absolute;
+    transform: translateY(5%);
+    top: 30px;
+    left: 40px;
+    margin: 35px 0px;
+    color: rgb(41, 41, 99) ;
+}
+.Main-image-2 .ALL-TEXT-2 a{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    background-color:yellow;
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.Main-image-2 .ALL-TEXT-2 a:hover{
+    color: lightyellow;
+}
+@media screen and (min-width: 480px) (max-width: 1199px)  {
+    
+}
